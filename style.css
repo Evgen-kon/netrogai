@@ -1,0 +1,34 @@
+
+.photo
+{  
+   display: flex;
+   flex-direction:column;
+   justify-content: center; 
+   align-items:center;
+
+   
+
+}
+.image{
+    order:1;
+    text-align: center;
+    display:inline-block;
+
+}
+.name{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.btn{
+    
+    background:transparent;
+    order:2;
+    transform:translate(210px,0px);
+    border:none;
+    font-size:35px;
+    opacity: 50%;
+    color:cornflowerblue;
+}
+.btn:hover{
+opacity: 90%;
+}
